@@ -42,7 +42,7 @@ function decode(expr) {
 
   for (let i = 0; i < expr.length; i += 10) {
     const letterCode = expr.slice(i, i + 10);
-    if (letterCode === '<strong></strong><strong></strong><strong>') {
+    if (letterCode === '**********') {
       morseCodes.push(' ');
         } else {
           let morseChar = '';
